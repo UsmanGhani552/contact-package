@@ -5,11 +5,10 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {},
-    "autoload-dev": {
+
+    "autoload": {
         "psr-4": {
-            "Laravel\\Tinker\\Tests\\": "tests/",
-            "App\\": "tests/fixtures/app",
-            "One\\Two\\": "tests/fixtures/vendor/one/two"
+            "Usman\\Contact\\": "src/"
         }
        
     },
