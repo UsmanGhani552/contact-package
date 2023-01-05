@@ -1,0 +1,15 @@
+{
+    "name": "usman/contact",
+    "description": "Email Sending",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Laravel\\Tinker\\Tests\\": "tests/",
+            "App\\": "tests/fixtures/app",
+            "One\\Two\\": "tests/fixtures/vendor/one/two"
+        }
+    }
+}
