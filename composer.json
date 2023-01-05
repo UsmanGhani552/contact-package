@@ -11,5 +11,13 @@
             "App\\": "tests/fixtures/app",
             "One\\Two\\": "tests/fixtures/vendor/one/two"
         }
+       
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Usman\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
